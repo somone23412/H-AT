@@ -7,6 +7,10 @@ PyTorch training code for:
 Origin codes forked from: 
 + https://github.com/szagoruyko/attention-transfer (thanks to Sergey Zagoruyko et al. and their great work)
 
+Coming:
++ Scenes and CUB code
++ ImageNet code
+
 ## Requirements
 
 First install [PyTorch](https://pytorch.org), then install [torchnet](https://github.com/pytorch/tnt):
