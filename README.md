@@ -26,9 +26,19 @@ pip install -r requirements.txt
 ```
 
 ## Experiments
+
+### CIFAR
 > refer to cifar_train.sh
 
-### train teacher 
+cifar_train.py includes:
++ CIFAR Wide ResNet training code
++ Hybrid Attention Transfer for Knowledge Distillation
++ Activation-based spatial attention transfer implementation
++ Knowledge distillation implementation
++ Similarity-preserving knowledge distillation implementation
+
+
+#### train teacher 
 ```bash
 $PATHTOPYTHON/python3 cifar_train.py \
 --save logs/resnet_40_1_teacher \
@@ -37,7 +47,7 @@ $PATHTOPYTHON/python3 cifar_train.py \
 --gpu_id 4
 ```
 
-### train student
+#### train student
 ```
 TEANET="40_1"
 DEPTH=16
