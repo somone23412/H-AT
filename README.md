@@ -2,7 +2,7 @@ H-AT: Hybrid Attention Transfer for Knowledge Distillation
 ==============
 
 PyTorch training code for:
-+ [H-AT: Hybrid Attention Transfer for Knowledge Distillation]()
++ [H-AT: Hybrid Attention Transfer for Knowledge Distillation](https://link.springer.com/chapter/10.1007/978-3-030-60636-7_21)
 
 Origin codes forked from: 
 + https://github.com/szagoruyko/attention-transfer (thanks to Sergey Zagoruyko et al. and their great work)
